@@ -1,0 +1,6 @@
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe.Repository\bin\Debug\Cafe.Repository.dll
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe.Repository\bin\Debug\Cafe.Repository.pdb
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe.Repository\obj\Debug\Cafe.Repository.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe.Repository\obj\Debug\Cafe.Repository.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe.Repository\obj\Debug\Cafe.Repository.dll
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe.Repository\obj\Debug\Cafe.Repository.pdb

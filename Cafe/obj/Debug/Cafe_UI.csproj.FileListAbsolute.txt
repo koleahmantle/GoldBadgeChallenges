@@ -5,3 +5,6 @@ C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe\obj\Debug\Cafe_UI.csproj.Assembl
 C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe\obj\Debug\Cafe_UI.csproj.CoreCompileInputs.cache
 C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe\obj\Debug\Cafe.exe
 C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe\obj\Debug\Cafe.pdb
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe\bin\Debug\Cafe.Repository.dll
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe\bin\Debug\Cafe.Repository.pdb
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe\obj\Debug\Cafe_UI.csproj.CopyComplete

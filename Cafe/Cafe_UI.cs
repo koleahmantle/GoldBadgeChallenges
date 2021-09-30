@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cafe.Repository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,6 +19,7 @@ namespace Cafe
             bool run = true;
             while (run == true)
             {
+                Console.Clear();
                 //display the menu 
                 Console.WriteLine("Please select a menu option: \n" +
                     "1. Add a Menu Item \n" +
@@ -30,6 +32,7 @@ namespace Cafe
                 switch (menuChoice)
                 {
                     case "1":
+                        AddMenuItemToList();
                         break;
                     case "2":
                         break;
@@ -41,10 +44,31 @@ namespace Cafe
                         run = false;
                         break;
                     default:
-                        Console.WriteLine("Incorrect input, pleasure choose option between 1-4.");
+                        Console.WriteLine("Incorrect input, pleasure choose option between 1-4. Please press any key to continue");
+                        Console.ReadKey();
                         break;
                 }
             }
+        }
+        public void AddMenuItemToList()
+        {
+            List<string> _listOfingredients = new List<string>();
+            MenuContent menu = new MenuContent();
+            //meal number
+            Console.WriteLine("Enter the meal number: ");
+            menu.MealNumber = int.Parse(Console.ReadLine());
+            //meal name
+            Console.WriteLine("Enter meal name: ");
+            menu.MealName = Console.ReadLine();
+            //description
+            Console.WriteLine("Enter the description of the meal: ");
+            menu.MealName = Console.ReadLine();
+            //List of ingredients
+            Console.WriteLine("Enter the list of ingredients one item at a time and seperate them with commas: ");
+            string ingredients = Console.ReadLine();
+            //price
+            Console.WriteLine("Enter the price: ");
+            menu.Price = double.Parse(Console.ReadLine());
         }
     }
 }

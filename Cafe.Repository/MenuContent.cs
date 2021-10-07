@@ -11,10 +11,10 @@ namespace Cafe.Repository
         public int MealNumber { get; set; }
         public string MealName { get; set; }
         public string MealDescription { get; set; }
-        public List<string> ListOfIngredients { get; set; }
+        public string ListOfIngredients { get; set; }
         public double Price { get; set; }
         public MenuContent() { }
-        public MenuContent (int mealNumber, String mealName, string mealDescription, List<string> listOfIngredients, double price)
+        public MenuContent (int mealNumber, String mealName, string mealDescription, string listOfIngredients, double price)
         {
             MealNumber = mealNumber;
             MealName = mealName;

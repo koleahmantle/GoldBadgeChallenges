@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cafe.Repository
 {
-    class Menu_Repository
+    public class MenuRepository
     {
         private List<MenuContent> _listOfMenuContent = new List<MenuContent>();
         //Create

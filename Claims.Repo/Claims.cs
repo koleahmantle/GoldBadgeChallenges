@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Claims.Repo
 {
-    public class Claim
+    public class Claims
     {
         public int Id { get; set; }
         public string Type { get; set; }
@@ -16,8 +16,8 @@ namespace Claims.Repo
         public DateTime DateOfClaim { get; set; }
         public bool IsValid { get; set; }
 
-        public Claim() { }
-        public Claim(int id, string type, string description, double amount, DateTime dateOfIncident, DateTime dateOfClaim, bool isValid)
+        public Claims() { }
+        public Claims(int id, string type, string description, double amount, DateTime dateOfIncident, DateTime dateOfClaim, bool isValid)
         {
             Id = id;
             Type = type;

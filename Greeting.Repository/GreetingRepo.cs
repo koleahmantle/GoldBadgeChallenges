@@ -6,26 +6,40 @@ using System.Threading.Tasks;
 
 namespace Greeting.Repository
 {
-    class GreetingRepo
+   public class GreetingRepo
     {
         // Make private repo list
-        private List<PersonContent> _listOfGreetingContent = new List<PersonContent>();
+        private List<Customer> _listOfGreetingContent = new List<Customer>();
         //Create
-        public void AddPersonContent(PersonContent person)
+        public void AddPersonContent(Customer person)
         {
             _listOfGreetingContent.Add(person);
         }
         //Read
-        public List<PersonContent> DisplayGreetingContent()
+        public List<Customer> DisplayGreetingContent()
         {
             return _listOfGreetingContent;
         }
         //Update
-
+        public void UpdatePerson(int id, Customer newPerson)
+        {
+            Customer oldPerson = GetPersonContentById(id);
+            if(oldPerson != null)
+            {
+                oldPerson.FirstName = newPerson.FirstName;
+                oldPerson.LastName = newPerson.LastName;
+                oldPerson.Id = newPerson.Id;
+                oldPerson.CustomerType = newPerson.CustomerType;
+            }
+            else
+            {
+                Console.WriteLine("Unable to update.");
+            }
+        }
         //Delete
         public bool DeletePerson(int id )
         {
-            PersonContent person = GetPersonContentById(id);
+            Customer person = GetPersonContentById(id);
             if(id == null)
             {
                 return false;
@@ -39,9 +53,9 @@ namespace Greeting.Repository
             return false;
         }
         //Helper Method 
-        public PersonContent GetPersonContentById(int id)
+        public Customer GetPersonContentById(int id)
         {
-            foreach(PersonContent person in _listOfGreetingContent)
+            foreach(Customer person in _listOfGreetingContent)
             {
                 if(person.Id == id)
                 {

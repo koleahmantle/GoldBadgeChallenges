@@ -18,7 +18,7 @@ namespace Cafe
         public void Menu()
         {
             bool run = true;
-            while (run == true)
+            while (run)
             {
                 Console.Clear();
                 //display the menu 
@@ -48,7 +48,7 @@ namespace Cafe
                         run = false;
                         break;
                     default:
-                        Console.WriteLine("Incorrect input, pleasure choose option between 1-4. Please press any key to continue");
+                        Console.WriteLine("Incorrect input, please choose option between 1-4. Please press any key to continue");
                         Console.ReadKey();
                         break;
                 }

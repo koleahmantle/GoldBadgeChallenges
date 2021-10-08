@@ -1,0 +1,10 @@
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Greeting.Console\obj\Debug\Greeting.UI.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Greeting.Console\obj\Debug\Greeting.UI.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Greeting.Console\bin\Debug\Greeting.Console.exe.config
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Greeting.Console\bin\Debug\Greeting.Console.exe
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Greeting.Console\bin\Debug\Greeting.Console.pdb
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Greeting.Console\bin\Debug\Greeting.Repository.dll
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Greeting.Console\bin\Debug\Greeting.Repository.pdb
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Greeting.Console\obj\Debug\Greeting.UI.csproj.CopyComplete
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Greeting.Console\obj\Debug\Greeting.Console.exe
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Greeting.Console\obj\Debug\Greeting.Console.pdb

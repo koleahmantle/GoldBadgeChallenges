@@ -1,0 +1,6 @@
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Greeting.Repository\bin\Debug\Greeting.Repository.dll
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Greeting.Repository\bin\Debug\Greeting.Repository.pdb
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Greeting.Repository\obj\Debug\Greeting.Repository.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Greeting.Repository\obj\Debug\Greeting.Repository.dll
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Greeting.Repository\obj\Debug\Greeting.Repository.pdb
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Greeting.Repository\obj\Debug\Greeting.Repository.csproj.AssemblyReference.cache

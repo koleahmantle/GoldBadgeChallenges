@@ -8,29 +8,29 @@ namespace Claims.Repo
 {
     public class ClaimRepo
     {
-        private List<Claims> _listOfClaims = new List<Claims>();
+        private Queue<Claim> claimsQueue = new Queue<Claim>();
         //Create
-        public void AddClaimsToList(Claims claim)
+        public void AddClaimsToList(Claim claim)
         {
-            _listOfClaims.Add(claim);
+            claimsQueue.Enqueue(claim);
         }
         //Read
-        public List<Claims> DisplayListOfClaims()
+        public Queue<Claim> DisplayListOfClaims()
         {
-            return _listOfClaims;
+            return claimsQueue;
         }
         //Update
-        public void UpdateClaimInList(int id, Claims newClaim)
+        public void UpdateClaimInList(int id, Claim newClaim)
         {
-            Claims oldClaim = GetClaimByID(id);
+            Claim oldClaim = GetClaimByID(id);
             if(oldClaim.Id == id)
             {
                 oldClaim.Id = newClaim.Id;
                 oldClaim.Type = newClaim.Type;
                 oldClaim.Description = newClaim.Description;
                 oldClaim.Amount = newClaim.Amount;
-                oldClaim.DateOfIncident = newClaim.DateOfIncident;
-                oldClaim.DateOfClaim = newClaim.DateOfClaim;
+                oldClaim.IncidentDate = newClaim.IncidentDate;
+                oldClaim.ClaimDate = newClaim.ClaimDate;
                 oldClaim.IsValid = newClaim.IsValid;
             }
             else
@@ -38,26 +38,26 @@ namespace Claims.Repo
                 Console.WriteLine("Unable to update, ID not found.");
             }
         }
-        //Delete
-        public bool DeleteClaimFromList(int id)
-        {
-           Claims claim = GetClaimByID(id);
-            if (claim == null)
-            {
-                return false;
-            }
-            int initialCount = _listOfClaims.Count;
-            _listOfClaims.Remove(claim);
-            if(initialCount > _listOfClaims.Count)
-            {
-                return true;
-            }
-            return false;
-        }
+        ////Delete
+        //public bool DeleteClaimFromList(int id)
+        //{
+        //   Claim claim = GetClaimByID(id);
+        //    if (claim == null)
+        //    {
+        //        return false;
+        //    }
+        //    int initialCount = claimsQueue.Count;
+        //    claimsQueue.Dequeue();
+        //    if(initialCount > claimsQueue.Count)
+        //    {
+        //        return true;
+        //    }
+        //    return false;
+        //}
         //Helper Method
-        public Claims GetClaimByID(int id)
+        public Claim GetClaimByID(int id)
         {
-            foreach(Claims claim in _listOfClaims)
+            foreach(Claim claim in claimsQueue)
             {
                 if (claim.Id == id)
                 {

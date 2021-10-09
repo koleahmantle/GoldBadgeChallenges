@@ -1,0 +1,6 @@
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Claims.Repo\bin\Debug\Claims.Repo.dll
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Claims.Repo\bin\Debug\Claims.Repo.pdb
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Claims.Repo\obj\Debug\Claims.Repo.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Claims.Repo\obj\Debug\Claims.Repo.dll
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Claims.Repo\obj\Debug\Claims.Repo.pdb
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Claims.Repo\obj\Debug\Claims.Repo.csproj.AssemblyReference.cache

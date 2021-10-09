@@ -7,6 +7,7 @@ C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe.UnitTests\bin\Debug\Microsoft.Vi
 C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe.UnitTests\obj\Debug\Cafe.UnitTests.csproj.AssemblyReference.cache
 C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe.UnitTests\obj\Debug\Cafe.UnitTests.csproj.CoreCompileInputs.cache
 C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe.UnitTests\obj\Debug\Cafe.UnitTests.csproj.CopyComplete
 C:\ElevenFiftyProjects\DotNetProjects\Cafe\Cafe.UnitTests\obj\Debug\Cafe.UnitTests.dll

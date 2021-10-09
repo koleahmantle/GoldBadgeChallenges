@@ -1,0 +1,10 @@
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Claims.UI\bin\Debug\Claims.UI.exe.config
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Claims.UI\bin\Debug\Claims.UI.exe
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Claims.UI\bin\Debug\Claims.UI.pdb
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Claims.UI\bin\Debug\Claims.Repo.dll
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Claims.UI\bin\Debug\Claims.Repo.pdb
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Claims.UI\obj\Debug\Claims.UI.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Claims.UI\obj\Debug\Claims.UI.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Claims.UI\obj\Debug\Claims.UI.csproj.CopyComplete
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Claims.UI\obj\Debug\Claims.UI.exe
+C:\ElevenFiftyProjects\DotNetProjects\Cafe\Claims.UI\obj\Debug\Claims.UI.pdb

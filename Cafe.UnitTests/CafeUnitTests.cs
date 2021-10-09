@@ -4,7 +4,7 @@ using System;
 namespace Cafe.UnitTests
 {
     [TestClass]
-    public class UnitTest1
+    public class CafeUnitTests
     {
         [TestMethod]
         public void TestMethod1()

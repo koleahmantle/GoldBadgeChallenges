@@ -10,34 +10,40 @@ namespace Claims.Repo
     {
         private Queue<Claim> claimsQueue = new Queue<Claim>();
         //Create
-        public void AddClaimsToList(Claim claim)
+        public bool AddClaimsToList(Claim claim)
         {
+            int initialCount = claimsQueue.Count;
             claimsQueue.Enqueue(claim);
+            if(initialCount < claimsQueue.Count)
+            {
+                return true;
+            }
+            return false;
         }
         //Read
         public Queue<Claim> DisplayListOfClaims()
         {
             return claimsQueue;
         }
-        //Update
-        public void UpdateClaimInList(int id, Claim newClaim)
-        {
-            Claim oldClaim = GetClaimByID(id);
-            if(oldClaim.Id == id)
-            {
-                oldClaim.Id = newClaim.Id;
-                oldClaim.Type = newClaim.Type;
-                oldClaim.Description = newClaim.Description;
-                oldClaim.Amount = newClaim.Amount;
-                oldClaim.IncidentDate = newClaim.IncidentDate;
-                oldClaim.ClaimDate = newClaim.ClaimDate;
-                oldClaim.IsValid = newClaim.IsValid;
-            }
-            else
-            {
-                Console.WriteLine("Unable to update, ID not found.");
-            }
-        }
+        ////Update
+        //public void UpdateClaimInList(int id, Claim newClaim)
+        //{
+        //    Claim oldClaim = GetClaimByID(id);
+        //    if(oldClaim.Id == id)
+        //    {
+        //        oldClaim.Id = newClaim.Id;
+        //        oldClaim.Type = newClaim.Type;
+        //        oldClaim.Description = newClaim.Description;
+        //        oldClaim.Amount = newClaim.Amount;
+        //        oldClaim.IncidentDate = newClaim.IncidentDate;
+        //        oldClaim.ClaimDate = newClaim.ClaimDate;
+        //        oldClaim.IsValid = newClaim.IsValid;
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("Unable to update, ID not found.");
+        //    }
+        //}
         ////Delete
         //public bool DeleteClaimFromList(int id)
         //{

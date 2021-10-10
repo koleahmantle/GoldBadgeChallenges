@@ -11,9 +11,15 @@ namespace Greeting.Repository
         // Make private repo list
         private List<Customer> _listOfGreetingContent = new List<Customer>();
         //Create
-        public void AddPersonContent(Customer person)
+        public bool AddPersonContent(Customer person)
         {
+            int initialCount = _listOfGreetingContent.Count;
             _listOfGreetingContent.Add(person);
+            if(initialCount < _listOfGreetingContent.Count)
+            {
+                return true;
+            }
+            return false;
         }
         //Read
         public List<Customer> DisplayGreetingContent()
@@ -21,7 +27,7 @@ namespace Greeting.Repository
             return _listOfGreetingContent;
         }
         //Update
-        public void UpdatePerson(int id, Customer newPerson)
+        public bool UpdatePerson(int id, Customer newPerson)
         {
             Customer oldPerson = GetPersonContentById(id);
             if(oldPerson != null)
@@ -30,10 +36,12 @@ namespace Greeting.Repository
                 oldPerson.LastName = newPerson.LastName;
                 oldPerson.Id = newPerson.Id;
                 oldPerson.CustomerType = newPerson.CustomerType;
+                return true;
             }
             else
             {
                 Console.WriteLine("Unable to update.");
+                return false;
             }
         }
         //Delete

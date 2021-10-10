@@ -10,9 +10,15 @@ namespace Cafe.Repository
     {
         private List<MenuContent> _listOfMenuContent = new List<MenuContent>();
         //Create
-        public void AddMenuContent(MenuContent menu)
+        public bool AddMenuContent(MenuContent menu)
         {
+            int initialCount = _listOfMenuContent.Count;
             _listOfMenuContent.Add(menu);
+            if (initialCount < _listOfMenuContent.Count)
+            {
+                return true;
+            }
+            return false;
         }
         //Read
         public List<MenuContent> DisplayMenuContent()
